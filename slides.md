@@ -386,7 +386,7 @@ code, pre {
     }
     else
     {
-        //MessageBox.Show("Correct Algorithm is selected.: " + algorithm");
+        //MessageBox.Show("Correct Algorithm is selected.: " + algorithm);
     }
     
 ```
