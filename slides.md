@@ -11,10 +11,6 @@ fonts:
 
 ---
 
-<div class="absolute bottom-130 right-0 p-2 text-sm opacity-80">
-1
-</div>
-
 第20回九州放射線医療技術学術大会　ハンズオンセミナーI
 # Eclipse Scripting APIを用いた<br>効率的なプランチェックの実践 
 
@@ -28,6 +24,27 @@ fonts:
 QR700030848 <br>
 放射線治療計画用ソフトウェア Eclipse：承認番号 22900BZX00265000　
 </div>
+
+---
+
+
+<div class="absolute bottom-130 right-0 p-2 text-sm opacity-80">
+1
+</div>
+
+第20回九州放射線医療技術学術大会　ハンズオンセミナーI
+# この研究発表の内容に関する利益相反事項は，
+　　
+　　
+<br>
+
+ <br>
+ 
+ ✅　あります {.text-3xl}
+ 
+ <br>　　
+
+講演料：　バリアンメディカルシステムズ {.text-2xl}  
 
 ---
 
