@@ -1,7 +1,7 @@
 /* ./styles/index.css */
 .scrollable-code {
   /* 最大の高さをスライドに合わせて設定（例: 300px） */
-  max-height: 300px; 
+  max-height: 360px; 
   /* 垂直方向のスクロールを有効にする */
   overflow-y: scroll; 
   /* 見栄えを良くするためにパディングを設定 */

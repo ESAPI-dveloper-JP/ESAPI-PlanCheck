@@ -256,8 +256,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
 ✅１ページ前のコードの後に続けてコピペ
 
 <div class="scrollable-code">
-
-```csharp {maxHeight:'200px'}
+```csharp
     string msg2 = string.Format(@"
     PatientName: {0}
     Patient ID: {1}
@@ -294,13 +293,6 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
     MessageBox.Show(msg2, "Practice 2", MessageBoxButton.OK);
 ```
 </div>
-
-<style>
-.scrollable-code pre, .scrollable-code pre code {
-  max-height: 360px;
-  overflow: auto;   /* はみ出しをスクロールに */
-}
-</style>
 
 ---
 
