@@ -9,6 +9,7 @@ fonts:
   # コードブロック用
   mono: Fira Code
 
+
 ---
 
 第20回九州放射線医療技術学術大会　ハンズオンセミナーI
@@ -254,8 +255,9 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl}
 MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
 ✅１ページ前のコードの後に続けてコピペ
 
-```csharp 
+<div class="scrollable-code">
 
+```csharp {maxHeight:'200px'}
     string msg2 = string.Format(@"
     PatientName: {0}
     Patient ID: {1}
@@ -290,8 +292,15 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
     CTdeviceid, creationdate, x_res, y_res, z_res);
   
     MessageBox.Show(msg2, "Practice 2", MessageBoxButton.OK);
-
 ```
+</div>
+
+<style>
+.scrollable-code pre, .scrollable-code pre code {
+  max-height: 360px;
+  overflow: auto;   /* はみ出しをスクロールに */
+}
+</style>
 
 ---
 
@@ -308,7 +317,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl}
 
 <div>
 
-```csharp
+```csharp 
     string msg2 = string.Format(@"
     PatientName: {0}
     Patient ID: {1}
