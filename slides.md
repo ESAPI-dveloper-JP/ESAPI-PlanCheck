@@ -56,7 +56,7 @@ QR700030848 <br>
 # 例題①: 患者名・IDの取得・表示
 
 <p class="text-2xl">
-現在開かれている <u>患者名</u> と <u>ID</u> の取得・表示
+🎯現在開かれている <u>患者名</u> と <u>ID</u> の取得・表示
 </p>
             
 ✅ ヒント：現在Eclipse上でアクティブな患者情報はcontext内に`Patient`オブジェクトとして格納される  
@@ -91,7 +91,7 @@ ESAPI の各プロパティは「値型」または「参照型」として定�
 # 演習①: プランID・コースIDの取得・表示 
 
 <p class="text-2xl">
-現在開かれている<u>プランID</u>・<u>コースID</u>を取得・表示してみましょう
+🎯現在開かれている<u>プランID</u>・<u>コースID</u>を取得・表示してみましょう
 </p>  
 
 ✅ ヒント：現在アクティブなプランは`context`内の`ExternalPlanSetup`オブジェクトとして格納される
@@ -107,7 +107,7 @@ ESAPI の各プロパティは「値型」または「参照型」として定�
 # 演習①: プランID・コースIDの取得・表示 
 
 <p class="text-2xl">
-現在開かれている<u>プランID</u>・<u>コースID</u>を取得・表示してみましょう
+🎯現在開かれている<u>プランID</u>・<u>コースID</u>を取得・表示してみましょう
 </p>
 
 ✅ ヒント：現在アクティブなプランは`context`内の`ExternalPlanSetup`オブジェクトとして格納される
@@ -139,7 +139,7 @@ ESAPI の各プロパティは「値型」または「参照型」として定�
 
 # 例題②: プラン情報・線量情報の取得表示
 <p class="text-5.5xl">
-<u>1回線量</u>，<u>分割回数</u>，<u>標的体積</u>，<u>線量正規化</u>，<u>計算アルゴリズム</u>，<u>計算グリッドサイズ</u>を表示してください</p>
+🎯<u>1回線量</u>，<u>分割回数</u>，<u>標的体積</u>，<u>線量正規化</u>，<u>計算アルゴリズム</u>，<u>計算グリッドサイズ</u>の表示</p>
 
 ✅ ヒント: 数値型(`int`, `double`など)のプロパティ値は`ToString()`メソッドで文字列に変換
 
@@ -167,7 +167,7 @@ ESAPI の各プロパティは「値型」または「参照型」として定�
 
 # 例題②: プラン情報・線量情報の取得表示
 
-MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} 
+💡MessageBox.Showを用いて取得情報を表示　{.text-5.5xl} 
 
 ↓のコードを前ページのコードの後に続けてコピペしてください
 
@@ -203,7 +203,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl}
 
 # 演習②: CT情報の取得・表示
 <p class="text-5.5xl">
-<u>Image ID</u>, <u>スタディID</u>, <u>スタディ名</u>, <u>シリーズID</u>, <u>シリーズ名</u>, <u>撮影装置名</u>，<u>ボクセルサイズ</u>を表示してください 
+🎯<u>Image ID</u>, <u>スタディID</u>, <u>スタディ名</u>, <u>シリーズID</u>, <u>シリーズ名</u>, <u>撮影装置名</u>, <u>ボクセルサイズ</u>を表示してください 
 </p>
 
 ✅ ヒント：`StructureSet` と `Image` は紐づく（StructureSetが参照する画像）  
@@ -218,7 +218,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl}
 # 演習②: CT情報の取得・表示
 
 <p class="text-5.5xl">
-<u>Image ID</u>, <u>スタディID</u>, <u>スタディ名</u>, <u>シリーズID</u>, <u>シリーズ名</u>, <u>撮影装置名</u>，<u>ボクセルサイズ</u>を表示してください 
+🎯<u>Image ID</u>, <u>スタディID</u>, <u>スタディ名</u>, <u>シリーズID</u>, <u>シリーズ名</u>, <u>撮影装置名</u>, <u>ボクセルサイズ</u>を表示してください 
 </p>
 
 ✅ ヒント：`StructureSet` と `Image` は紐づく（StructureSetが参照する画像）  
@@ -252,7 +252,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl}
 
 # 演習②: CT情報の取得・表示
 
-MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
+💡MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
 ✅１ページ前のコードの後に続けてコピペ
 
 <div class="scrollable-code">
@@ -302,7 +302,7 @@ MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} <br>
 
 # 演習②: CT情報の取得・表示
 
-MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} 
+💡MessageBox.Showを用いた取得情報の表示　{.text-5.5xl} 
 コード全体表示Ver.
 
 <div class="grid grid-cols-2 gap-4">
@@ -367,7 +367,7 @@ code, pre {
 
 # 例題③: 線量計算アルゴリズムの選択ミス検出
 
-線量計算アルゴリズム選択間違いをしているときに警告メッセージを表示 {.text-2xl} 
+🎯線量計算アルゴリズム選択間違いをしているときに警告メッセージを表示 {.text-2xl} 
 
 ✅ ヒント：施設プロトコルで想定する既定値と実際の値を比較  
 ✅ ヒント：`if文`の条件分岐により文字列を比較する
@@ -407,7 +407,7 @@ code, pre {
 
 # 演習③: CT装置の選択ミス検出
 
-CT装置の選択間違いをしているときに警告メッセージを表示 {.text-2xl}
+🎯CT装置の選択間違いをしているときに警告メッセージを表示してください {.text-2xl}
 
 ✅ ヒント：施設プロトコルで想定する既定値と実際の値を比較  
 ✅ ヒント：`if文`の条件分岐により文字列を比較する
@@ -420,7 +420,7 @@ CT装置の選択間違いをしているときに警告メッセージを表示
 
 # 演習③: CT装置の選択ミス検出
 
-CT装置の選択間違いをしているときに警告メッセージを表示 {.text-2xl}
+🎯CT装置の選択間違いをしているときに警告メッセージを表示してください {.text-2xl}
 
 ✅ ヒント：施設プロトコルで想定する既定値と実際の値を比較  
 ✅ ヒント：`if文`の条件分岐により文字列を比較する
@@ -459,7 +459,7 @@ code, pre {
 # 例題&演習③: 改良コード例  
 
 
-✅ 可読性の向上，可視化の工夫  <br>  ✅ エラーカウント機能の追加 {.text-1xl}
+💡 可読性の向上，可視化の工夫  <br>  💡 エラーカウント機能の追加 {.text-1xl}
    
 ```csharp
 
@@ -501,7 +501,7 @@ code, pre {
 
 
 <p class="text-5.5xl">
-すべてのビームの<u>ID</u>, <u>Name</u>, <u>装置名エネルギー線量率</u>, <u>照射方法</u>, <u>MLCタイプ</u>, <u>MU</u>, <u>ToleranceTable</u>を表示
+🎯すべてのビームの<u>ID</u>, <u>Name</u>, <u>装置名エネルギー線量率</u>, <u>照射方法</u>, <u>MLCタイプ</u>, <u>MU</u>, <u>ToleranceTable</u>を表示
 </p>
 
 ✅ ヒント：`Beams`は`Beam`オブジェクトの集合 `IEnumerable<Beam>`  
@@ -539,12 +539,12 @@ code, pre {
 
 # 演習④: ストラクチャー情報の取得・表示
 <p class="text-5.5xl">
-すべてのストラクチャーの<u>ID</u>, <u>DicomType</u>, <u>Volume</u>を表示してみましょう
+🎯すべてのストラクチャーの<u>ID</u>, <u>DicomType</u>, <u>Volume</u>, <u>パーツ数</u>, <u>CT値オーバーライド</u>を表示してみましょう
 </p>
 
 ✅ ヒント：`Structures` は`Structure`オブジェクトの集合`IEnumerable<Structure>`  
 ✅ ヒント：`foreach文`：反復処理で各ストラクチャー (`Structure`オブジェクト) の主要プロパティを表示  
-✅ ヒント：`GetNumberOfSeparateParts()`：ストラクチャーの領域数を出力するメソッド  
+✅ ヒント：`GetNumberOfSeparateParts()`：ストラクチャーのパーツ数を出力するメソッド  
 ✅ ヒント：`GetAssignedHU(out double)`：ストラクチャーに割り当てられた<b>CT値</b>を取得するメソッド
 
 ---
@@ -555,7 +555,7 @@ code, pre {
 
 # 演習④: ストラクチャー情報の取得・表示
 <p class="text-5.5xl">
-すべてのストラクチャーの<u>ID</u>, <u>DicomType</u>, <u>Volume</u>を表示してみましょう
+🎯すべてのストラクチャーの<u>ID</u>, <u>DicomType</u>, <u>Volume</u>, <u>パーツ数</u>, <u>CT値オーバーライド</u>を表示してみましょう
 </p>
 
 ```csharp
@@ -592,8 +592,7 @@ code, pre {
 </div>
 
 # 例題⑤: LINQによる効率的なデータアクセス <br> -セットアップフィールドの抽出・Total MUの計算-
-
-LINQ(`Where`/`Select`/`Sum`)を使ってセットアップフィールドのID検出・Total MUを算出 {.text-5.5xl}
+🎯LINQ(`Where`/`Select`/`Sum`)を使ってセットアップフィールドのID検出・Total MUを算出 {.text-5.5xl}
 
 ✅ ヒント：`Beams` は`Beam`の集合(コレクション) `IEnumerable<Beam>`　→　`LINQ`が使える  
 ✅ ヒント：そのフィールドがセットアップフィールドかどうかは`beam.IsSetupField`で判別可能
@@ -632,7 +631,7 @@ code, pre {
 
 # 演習⑤: LINQによる効率的なデータアクセス<br>-ストラクチャー情報の取得・表示-
 
-LINQ(`Where`/`Select`)を使って<b>SUPPORT</b>ストラクチャーを検出してください (Couchの設定確認)
+🎯LINQ(`Where`/`Select`)を使って<b>SUPPORT</b>ストラクチャーを検出してください (Couchの設定確認)
 
 ✅ヒント：`StructureSet`は`Structure`の集合(コレクション)`IEnumerable<Structure>`→`LINQ`が使える  
 ✅ヒント：LINQ(`Where`/`Select`)を使って`DicomType`が<b>SUPPORT</b>のストラクチャーを検出・表示
@@ -645,7 +644,7 @@ LINQ(`Where`/`Select`)を使って<b>SUPPORT</b>ストラクチャーを検出�
 
 # 演習⑤: LINQによる効率的なデータアクセス<br>-ストラクチャー情報の取得・表示-
 
-LINQ(`Where`/`Select`)を使って<b>SUPPORT</b>ストラクチャーを検出してください (Couchの設定確認)
+🎯LINQ(`Where`/`Select`)を使って<b>SUPPORT</b>ストラクチャーを検出してください (Couchの設定確認)
 
 ✅ヒント：`StructureSet`は`Structure`の集合(コレクション)`IEnumerable<Structure>`→`LINQ`が使える
 ✅ヒント：LINQ(`Where`/`Select`)を使って`DicomType`が<b>SUPPORT</b>のストラクチャーを検出・表示
